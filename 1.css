@@ -1,0 +1,109 @@
+body{
+	background-size: 100%;
+	transition: all ease 1s;
+	min-height: 1337px;
+	max-height: 1337px;
+	min-width: 750px;
+	max-width: 750px;
+	position: fixed;
+	width: 750px;
+	height: 1337px;
+	touch-action: none;
+
+}
+
+#grid{
+	grid-template-rows: repeat(4, 250);
+	grid-template-columns: repeat(4, 250px);
+	transition: all ease 1s;
+	display: grid;
+	width: 750px;
+	height: 1337px;
+	touch-action: none;
+	min-height: 1337px;
+	max-height: 1337px;
+	min-width: 750px;
+	max-width: 750px;
+}
+
+#grid1, #grid2, #grid3, #grid4{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	width: 750px;
+	height: 650px;
+	position: fixed;
+	transition: all ease 0.5s;
+}
+
+#grid1{
+	background-image: url('https://games.mail.ru/pre_0x736_resize/hotbox/content_files/news/2021/05/14/d02f44f2c15a459fa0ca37641d7216ea.jpg?quality=85');
+}
+
+#grid2{
+	background-image: url('https://cdn.gamestatic.net/files/editor_uploads/Rins/gta/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%D0%9F%D0%B0%D0%BF%D0%BA%D0%B0%2060/ps44.jpg');
+}
+
+#grid3{
+	background-image: url('https://gamepark.by/wp-content/uploads/2019/03/gow_launchscreen_08_1524252065_1.jpg');
+}
+
+#grid4{
+	background-image: url('https://avatars.mds.yandex.net/get-zen_doc/3774499/pub_5f150f3d112f9063f681b76d_5f1514c14faac50f1e27d7db/scale_1200');
+}
+
+#grid5{
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	grid-row-end: 2;
+	width: 750px;
+	height: 50px;
+	top: -630px;
+	position: relative;
+	transition: all ease 1s;
+}
+
+#grid6{
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	grid-row-end: 2;
+	width: 750px;
+	height: 10px;
+	top: -590px;
+	position: relative;
+	transition: all ease 1s;
+}
+
+#block1, #block2, #block3, #block4{
+	display: inline-block;
+	position: relative;
+	height: 50px;
+	width: 180px;
+	opacity: 0.5;
+	left: 10px;
+	background-color: black;
+}
+
+#block5, #block6, #block7, #block8{
+	display: inline-block;
+	position: relative;
+	height: 10px;
+	width: 180px;
+	left: 10px;
+	border-radius: 5%;
+	transition: all ease 1s;
+}
+
+#block5{
+	background-color: white;
+}
+
+#mark1, #mark2, #mark3, #mark4{
+	position: relative;
+	left: 40px;
+	top: 10px;
+	font-size: 20px;
+}
