@@ -1,0 +1,47 @@
+body{
+	background-color: white;
+	background-size: 100%;
+	transition: all ease 1s;
+	min-height: 1337px;
+	max-height: 1337px;
+	min-width: 750px;
+	max-width: 750px;
+	position: fixed;
+	width: 750px;
+	height: 1337px;
+	touch-action: none;
+}
+
+.menu{
+	width: 500px;
+	height: 500px;
+	border-radius: 20%;
+	position: relative;
+	transition: all ease 0.5;
+	margin-top: 20px; 
+}
+
+#inp1{
+	min-height: 150px;
+	max-height: 150px;
+	min-width: 850px;
+	max-width: 850px;
+	position: relative;
+	top: 10%;
+	font-size: 30px;
+	border-radius: 100px;
+	border: white;
+	background-image: url(https://eus-www.sway-cdn.com/s/YKQ5TKygsaNP8qY8/images/8L_yPqucbIKPY4?quality=1024&allowAnimation=true);
+	transition: all ease 1s;
+	margin-left: 10%;
+	font-weight: bold;
+}
+
+input{
+	box-shadow: 0 0 15px 10px rgba(0,0,0,0.15);
+	background-size: 10%;
+	background-repeat: no-repeat;
+	background-position: 7%;
+}
+
+
